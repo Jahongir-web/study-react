@@ -1,0 +1,154 @@
+.footer-site {
+
+}
+
+.footer-top {
+  padding: 82px 0 74px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-top-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 43px;  
+  color: #252525;
+  padding-right: 10px;
+}
+
+.footer-bottom {
+  padding: 64px 0 45px 0;
+  background-color: #717CFF;
+}
+
+.footer-bottom-content {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.footer-bottom-left {
+
+}
+
+.footer-logo-link {
+  text-decoration: none;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 26px;
+
+}
+
+.footer-bottom-left-text {
+  max-width: 343px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #EEEEEE;  
+}
+
+.footer-menu {
+
+}
+
+.footer-menu-list {
+  list-style: none;
+}
+
+.footer-menu-item {
+
+}
+
+.footer-menu-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 49px;
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+.footer-policy {
+
+}
+
+.footer-bottom-right {
+  margin-top: auto;
+}
+
+.footer-social-list {
+  display: flex;
+  list-style: none;
+}
+
+.footer-social-item {
+  margin-right: 28px;
+}
+
+.footer-social-link {
+
+}
+
+.footer-social-icon {
+
+}
+
+.footer-bottom-text {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #EEEEEE;
+}
+
+
+@media only screen and (max-width: 880px) {
+  .footer-bottom-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-top-heading {
+    font-size: 24px;
+    line-height: 30px; 
+  }
+
+  .footer-logo {
+    margin: auto; 
+    margin-bottom: 30px; 
+  }
+
+  .footer-bottom-left-text {
+    text-align: center; 
+    margin-bottom: 30px;
+  }
+
+  .footer-menu-list {
+    margin-bottom: 30px;
+  }
+
+  .footer-social-list {
+    margin-bottom: 30px;
+  }
+
+  .footer-bottom-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .footer-top-heading {
+    font-size: 18px;
+    line-height: 20px; 
+  }
+}

@@ -1,0 +1,169 @@
+.header-site {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 128px;
+  margin: auto;
+}
+
+.header-site-content {
+  margin-top: 41px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-link {
+  display: block;
+  margin-right: auto;
+}
+
+.logo-img {
+  width: 146px;
+  height: 52px;
+  display: block;
+}
+
+.navbar-site {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: Roboto, sans-serif;
+  margin-right: 70px;
+  line-height: 20px;
+  color: #373737;
+  white-space: nowrap;
+  position: relative;
+}
+
+.active-link::after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 130%;
+  background-color: #717CFF;
+  width: 23px;
+  height: 3px;
+  border-radius: 2px;
+}
+
+.header-btn {
+  display: block;
+  padding: 11px 34px;
+  border: 1px solid #717CFF;
+  color: #505050;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu-btn {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1330px) {
+  .navbar-link {
+    margin-right: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .navbar-link {
+    margin-right: 20px;
+  }
+
+  .container {
+    padding: 0 100px;
+  }
+
+  .logo-img {
+    width: 100px;
+    height: 31px;
+  }
+
+  .header-btn {
+    padding: 6px 19px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar-link {
+    margin-right: 15px;
+    font-size: 16px;
+  }
+  
+  .container {
+    padding: 0 50px;
+  }
+
+  .logo-img {
+    width: 80px;
+    height: 26px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  body {
+    position: relative;
+  }
+
+  .navbar-site {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    height: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    transform: translateX(-100%);
+    transition: 0.5s ease;
+  }
+
+  .menu-open {
+    transform: translateX(0%);
+  }
+
+  .menu-btn {
+    margin-left: 30px;
+    display: block;
+    position: relative;
+    z-index: 5;
+  }
+
+  .navbar-link {
+    margin-bottom: 26px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    position: relative;
+  }
+
+  .container {
+    padding: 0 30px;
+  }
+
+  .header-btn {
+    padding: 4px 12px;
+    font-size: 12px;
+  }
+
+  .menu-btn {
+    margin-left: 15px;
+  }  
+}

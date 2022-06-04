@@ -1,0 +1,70 @@
+.main-btn {
+  background-color: #717CFF;
+  color: #fff;
+  padding: 12px 34px;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Roboto', 'sans-serif';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  margin-left: 30px;
+  display: block;
+}
+
+@media only screen and (max-width: 880px) {
+  .main-btn {    
+    padding: 6px 17px;    
+    font-size: 18px;
+    line-height: 26px;    
+  }
+
+  .arrow-icon {
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .main-btn {    
+    padding: 4px 12px;    
+    font-size: 16px;
+    line-height: 20px;    
+  }
+
+  .arrow-icon {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main-btn {    
+    padding: 4px 8px;    
+    font-size: 14px;
+    line-height: 16px;    
+  }
+
+  .arrow-icon {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main-btn {    
+    padding: 4px 8px;    
+    font-size: 12px;
+    line-height: 12px;   
+    white-space: nowrap; 
+  }
+
+  .arrow-icon {
+    margin-left: 5px;
+    width: 20px;
+  }
+}

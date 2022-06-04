@@ -1,0 +1,113 @@
+.univer-field {
+  padding: 56px 0;
+}
+
+.univer-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 27px;  
+  text-align: center;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;  
+  color: #373737;  
+  mix-blend-mode: normal;
+  opacity: 0.73;
+  margin-bottom: 86px;
+}
+
+.univer-list {
+  list-style-type: none;
+  width: 110%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -37px;
+  margin-bottom: 105px;
+}
+
+.univer-item {
+  margin: 0 20px 37px 20px;
+}
+
+.univer-img {
+  display: block;
+}
+
+.btn-box {
+  width: 127px;
+  margin: 0 auto;
+}
+
+.univer-btn {
+  border: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgba(124, 124, 124, 0.318837);
+  margin: 0 10px;
+}
+
+.active-btn {
+  width: 14px;
+  height: 14px;
+  background-color: #717CFF;
+}
+
+
+@media only screen and (max-width: 880px) {
+  .univer-field {
+    padding: 36px 0;
+  }
+
+  .univer-heading {
+    margin-bottom: 56px;
+  }
+
+  .univer-list {
+    margin-bottom: 55px;
+  }
+
+  .univer-img {
+    width: 180px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .univer-field {
+    padding: 26px 0;
+  }
+
+  .univer-heading {
+    margin-bottom: 36px;
+    font-size: 18px;
+    line-height: 20px;  
+  }
+
+  .univer-list {
+    margin-bottom: 35px;
+  }
+
+  .univer-img {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .univer-list {
+    margin-bottom: 35px;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+  }
+
+  .univer-img {
+    width: 120px;
+  }
+
+  .btn-box {
+    display: none;
+  }
+}
